@@ -28,7 +28,8 @@
 
 # 代码实现
 见GA_adapt文件夹
-![图片](/image/image(1).png)
+
+![图片](/image/image1.png)
 
 代码结构如上，其中Course，Scheme，Student分别描述了课程，排考方案，学生的各实例，
 Public主要用于调整超参数，GA_adapt是遗传算法主体，Greedy_arithmetic是贪心算法主体，
@@ -43,9 +44,10 @@ Public主要用于调整超参数，GA_adapt是遗传算法主体，Greedy_arith
 关于p值的选取，我进行了如下实验：
 rate.csv
 
-![图片](/image/image(2).png)
-![图片](/image/image(3).png)
-![图片](/image/image(4).png)
+![图片](/image/image2.png)
+![图片](/image/image3.png)
+![图片](/image/image4.png)
+
 rate表记录了不同的p值（变异概率）以及对应的rate，score，time_cost
 
 可以看出，p值越小，每次越容易生成一个可行的排课方案，所需时间也越少（迭代次数增多），但方案的满意度较差，p值越大，越难找到可行的排课方案，所需时间也越多，但方案满意度较好。

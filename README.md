@@ -11,7 +11,10 @@
 这项评估函数考虑了每个学生的排考情况，以及每个场次的学生总人数安排情况。
 越小，即每个学生的所有考试间隔越大，各场次学生数越均衡，认为该排考方案越好。
 数据处理
-1.  conflict.csv  
+1.  conflict.csv
+
+![image]((https://github.com/yeren66/GA/blob/main/image/image%20(1).png)
+
  白：0；绿：1~30；黄：31~100；红：100+；（max = 652）
 该冲突表横纵坐标均为课程id，交叉点表示两课程的冲突人数，可以看出图较为稀疏，即可行解很多。
 2. students_number.csv
